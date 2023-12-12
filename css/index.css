@@ -35,4 +35,57 @@ i {
   user-select: none;
 }
 /* finnish Default styles */
+/* start landing styles */
+.landing{
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/background_landing.jfif) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  padding: 9rem 0;
+  color: var(--white-color);
+  
+}
+.landing__title{
+  font-size: 3.4rem;
+  font-weight: bold;
+}
+.landing__subtitle{
+  font-size: 1.8rem;
+  margin-top: 0.3rem;
+}
+.landing__searchbar{
+  margin: 3.5rem auto;
+  width: 700px;
+  position: relative;
+}
+.landing__searchbar-input{
+  width: 100%;
+  padding: 2.5rem;
+  border: none;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+.landing__searchbar-btn{
+  position: absolute;
+  border: none;
+  background-color: var(--primary-color);
+  top: 0.7rem;
+  left: 1rem;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+.landing__searchbar-icon{
+  font-size:2.8rem ;
+  color: var(--white-color);
+}
+
+/* finnish landing styles */
 
