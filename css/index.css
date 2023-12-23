@@ -5,6 +5,7 @@
 @import "./navbar.css";
 @import "./landing.css";
 @import "./latestCourses.css";
+@import "./aboutUs.css";
 
 html {
   box-sizing: border-box;
@@ -38,8 +39,6 @@ i {
   user-select: none;
 }
 /* finnish Default styles */
-
-
 
 /* start Helper Classes */
 .title {
@@ -79,46 +78,9 @@ i {
 }
 /* finish Helper Classes */
 
-/* start About us styles */
-.about-us{
-  margin: 6rem 0;
-}
-.about-us__header{
-  display: flex;
-  flex-direction: column;
+/* start popular courses styles */
+.popular{
+  margin: 5rem 0;
 }
 
-.about-us__subtitle{
-font-size: 1.5rem;
-color: #9c9c9c;
-
-}
-.about-us__box{
-  display: flex;
-  box-shadow:0 0 10px 0 rgba(0, 0, 0, 0.1) ;
-  border-radius:0.5rem ;
-  -webkit-border-radius:0.5rem ;
-  -moz-border-radius:0.5rem ;
-  -ms-border-radius:0.5rem ;
-  -o-border-radius:0.5rem ;
-  margin: 2rem 0;
-  padding: 2rem 1.5rem;
-
-
-}
-.about-us__icon{
-  color: #666;
-  font-size: 6.5rem;
-}
-.about-us__box-left{
-  display: flex;
-  flex-direction: column;
-  margin-right: 1rem;
-
-}
-.about-us__box-title{
-  font-weight: bold;
-  font-size: 1.8rem;
-  
-}
-/* finish About us styles */
+/* finish popular courses styles */
