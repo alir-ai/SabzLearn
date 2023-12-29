@@ -1,0 +1,103 @@
+/* start article styles */
+.article {
+    margin: 4rem 2rem;
+  }
+  
+  .article-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .article-header__right {
+    display: flex;
+    flex-direction: column;
+  }
+  .article-header__text {
+    font-size: 1.5rem;
+    color: #9c9c9c;
+  }
+  .article-header__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+  }
+  .article-header__link:hover {
+    color: var(--white-color);
+  }
+  .article-header__icon {
+    margin-right: 0.5rem;
+    font-size: 1.5rem;
+  }
+  
+  .article-card {
+    margin: 3rem 0;
+    transition: all 400ms ease;
+    -webkit-transition: all 400ms ease;
+    -moz-transition: all 400ms ease;
+    -ms-transition: all 400ms ease;
+    -o-transition: all 400ms ease;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    box-shadow: 0 5px 30px rgba(70, 72, 77, 0.08);
+  }
+  .article-card:hover {
+    transform: translateY(-0.6rem);
+    -webkit-transform: translateY(-0.6rem);
+    -moz-transform: translateY(-0.6rem);
+    -ms-transform: translateY(-0.6rem);
+    -o-transform: translateY(-0.6rem);
+  }
+  .article-card__img {
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+    -webkit-border-radius: 1rem 1rem 0 0;
+    -moz-border-radius: 1rem 1rem 0 0;
+    -ms-border-radius: 1rem 1rem 0 0;
+    -o-border-radius: 1rem 1rem 0 0;
+  }
+  .article-card__content{
+    padding: 1rem 2rem 3rem;
+  }
+  .article-card__link{
+    font-weight: bold;
+  }
+  .article-card__text{
+    color: #898989;
+    font-size: 1.2rem;
+    padding: 1rem 0 2.5rem;
+  }
+  .article-card__btn{
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+    padding: 0.5rem 1rem;
+    font-size: 1.4rem;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    transition: all 400ms ease;
+    -webkit-transition: all 400ms ease;
+    -moz-transition: all 400ms ease;
+    -ms-transition: all 400ms ease;
+    -o-transition: all 400ms ease;
+    display: inline-block;
+  }
+  .article-card__btn:hover{
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    cursor: pointer;
+  }
+  /* finish article styles */
+  
