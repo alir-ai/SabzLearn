@@ -80,3 +80,49 @@ i {
 }
 /* finish Helper Classes */
 
+/* start footer styles */
+.footer-widgets{
+  background-color: #f0f2f7;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  padding: 4rem 3.5rem;
+  margin-bottom: 5rem;
+  position: relative;
+}
+.footer-widgets__title{
+  display: block;
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  position: relative;
+}
+.footer-widgets__text{
+  color: #7d7d7f;
+}
+.footer-widgets__links{
+  display: flex;
+  flex-direction: column;
+}
+.footer-widgets__link{
+  display: block;
+  margin-bottom: 1rem;
+}
+.footer__copyright{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f2f7;
+  padding: 1rem 0;
+}
+
+
+
+
+
+
+
+/* finish footer styles */
+
