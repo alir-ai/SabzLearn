@@ -1,164 +1,17 @@
-/* start Default styles */
 @import "./variables.css";
 @import "./font.css";
+@import "./defaults.css";
 @import "./top-bar.css";
 @import "./navbar.css";
 @import "./landing.css";
 @import "./latestCourses.css";
+@import "./helper.css";
+@import "./course_box.css";
 @import "./aboutUs.css";
 @import "./popular&pre-sell.css";
 @import "./articles.css";
-
-html {
-  box-sizing: border-box;
-  font-size: 62.5%;
-}
-body {
-  line-height: 1.6;
-  font-size: 1.6rem;
-  font-family: var(--primary-font);
-  direction: rtl;
-}
-*,
-*::after,
-*::before {
-  box-sizing: inherit;
-  outline: none;
-}
-a {
-  text-decoration: none;
-  color: var(--dark-color);
-  transition: all 400ms ease;
-  -webkit-transition: all 400ms ease;
-  -moz-transition: all 400ms ease;
-  -ms-transition: all 400ms ease;
-  -o-transition: all 400ms ease;
-}
-a:hover {
-  color: #1e83f0;
-}
-i {
-  user-select: none;
-}
-/* finnish Default styles */
-
-/* start Helper Classes */
-.title {
-  color: #444446;
-  font-size: 2.3rem;
-  font-weight: bold;
-  line-height: 1.2;
-  position: relative;
-}
-.title::before {
-  content: "";
-  position: absolute;
-  right: -1rem;
-  width: 0.4rem;
-  height: 4.4rem;
-  background-color: var(--primary-color);
-  border-radius: 5rem;
-  -webkit-border-radius: 5rem;
-  -moz-border-radius: 5rem;
-  -ms-border-radius: 5rem;
-  -o-border-radius: 5rem;
-  transform: rotate(8deg);
-  -webkit-transform: rotate(8deg);
-  -moz-transform: rotate(8deg);
-  -ms-transform: rotate(8deg);
-  -o-transform: rotate(8deg);
-}
-.title::after {
-  content: "";
-  width: 100%;
-  max-width: 250px;
-  height: 60%;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  background-color: rgba(43, 206, 86, 0.2);
-}
-/* finish Helper Classes */
-
-/* start footer styles */
-.footer-widgets{
-  background-color: #f0f2f7;
-  border-radius: 1rem;
-  -webkit-border-radius: 1rem;
-  -moz-border-radius: 1rem;
-  -ms-border-radius: 1rem;
-  -o-border-radius: 1rem;
-  padding: 4rem 3.5rem;
-  margin-bottom: 5rem;
-  position: relative;
-}
-.footer-widgets::before{
-  content: '';
-  position: absolute;
-  right: 0;
-  left: 0;
-  bottom: -1.5rem;
-  margin: 0 auto;
-  width: 50rem;
-  height: 4rem;
-  background-color: var(--primary-color);
-  z-index: -1;
-  border-radius: 5rem;
-  -webkit-border-radius: 5rem;
-  -moz-border-radius: 5rem;
-  -ms-border-radius: 5rem;
-  -o-border-radius: 5rem;
-}
-.footer-widgets__title{
-  display: block;
-  font-size: 1.7rem;
-  font-weight: bold;
-  margin-bottom: 2rem;
-  position: relative;
-}
-.footer-widgets__title::before{
-  content: '';
-  position: absolute;
-  width: 3.5rem;
-  height: 3.5rem;
-  background-color: var(--primary-color);
-  border-radius: 0.7rem;
-  -webkit-border-radius: 0.7rem;
-  -moz-border-radius: 0.7rem;
-  -ms-border-radius: 0.7rem;
-  -o-border-radius: 0.7rem;
-  right: 1rem;
-  opacity: 0.3;
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-}
-.footer-widgets__text{
-  color: #7d7d7f;
-}
-.footer-widgets__links{
-  display: flex;
-  flex-direction: column;
-}
-.footer-widgets__link{
-  display: block;
-  margin-bottom: 1rem;
-}
-.footer__copyright{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #f0f2f7;
-  padding: 1rem 0;
-}
+@import "./footer.css";
 
 
 
-
-
-
-
-/* finish footer styles */
 
