@@ -23,9 +23,103 @@
   padding: 2.2rem;
   box-shadow: 0 0 13px 1px rgba(70, 72, 77, 0.08);
 }
-
-/* Right */
-
+.corses-top-bar__right {
+  display: flex;
+  align-items: center;
+}
+.corses-top-bar__row-btn,
+.corses-top-bar__column-btn {
+  padding: 0.8rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+  width: 4.2rem;
+  height: 3.8rem;
+  border-radius: 0.3rem;
+  -webkit-border-radius: 0.3rem;
+  -moz-border-radius: 0.3rem;
+  -ms-border-radius: 0.3rem;
+  -o-border-radius: 0.3rem;
+  color: #000;
+  cursor: pointer;
+  border: 1px solid #e5e5e5;
+  margin-left: 1rem;
+}
+.corses-top-bar__icon--active {
+  color: var(--white-color);
+  background-color: #1e83f0;
+}
+.corses-top-bar__selection {
+  cursor: pointer;
+  position: relative;
+}
+.corses-top-bar__selection-title {
+  display: flex;
+  align-items: center;
+  height: 3.8rem;
+  border-radius: 0.3rem;
+  -webkit-border-radius: 0.3rem;
+  -moz-border-radius: 0.3rem;
+  -ms-border-radius: 0.3rem;
+  -o-border-radius: 0.3rem;
+  padding: 0.8rem 2rem;
+  border: 1px solid #e5e5e5;
+  color: #7d7d7d;
+  transition: all 400ms ease;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+}
+.corses-top-bar__selection-title:hover{
+  color: var(--white-color);
+  background-color: #1e83f0;
+}
+.corses-top-bar__selection-icon{
+  margin-right: 0.5rem;
+}
+.corses-top-bar__selection-list{
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  background-color: var(--white-color);
+  width: 100%;
+  padding: 0.8rem 0;
+  border-radius:0 0 0.3rem 0.3rem ;
+  -webkit-border-radius:0 0 0.3rem 0.3rem ;
+  -moz-border-radius:0 0 0.3rem 0.3rem ;
+  -ms-border-radius:0 0 0.3rem 0.3rem ;
+  -o-border-radius:0 0 0.3rem 0.3rem ;
+  border-bottom: 0.3rem solid var(--primary-color);
+  z-index: 9999;
+  transition: all 400ms ease;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+}
+.corses-top-bar__selection:hover .corses-top-bar__selection-list{
+  visibility: visible;
+  opacity: 1;
+}
+.corses-top-bar__selecion-item{
+  font-size: 1.4rem;
+  padding: 0.9rem 1.4rem;
+  color: #5f5f5f;
+  transition: all 200ms ease;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+}
+.corses-top-bar__selecion-item:hover{
+background-color: #ddd;
+}
+.corses-top-bar__selecion-item--active{
+  background-color: #ddd !important;
+}
+ 
 .corses-top-bar__form {
   position: relative;
   width: 30rem;
