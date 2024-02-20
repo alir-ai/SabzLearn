@@ -29,7 +29,7 @@
 }
 .corses-top-bar__row-btn,
 .corses-top-bar__column-btn {
-  padding: 0.8rem 1rem;
+  /* padding: 0.8rem 1rem; */
   display: flex;
   align-items: center;
   justify-content: baseline;
@@ -44,6 +44,9 @@
   cursor: pointer;
   border: 1px solid #e5e5e5;
   margin-left: 1rem;
+}
+.corses-top-bar__icon{
+  margin: auto;
 }
 .corses-top-bar__icon--active {
   color: var(--white-color);
