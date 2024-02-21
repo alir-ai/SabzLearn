@@ -11,6 +11,7 @@
 @import "./popular&pre-sell.css";
 @import "./articles.css";
 @import "./footer.css";
+@import "./pagination.css";
 
 /* Start Courses Top-bar-Styles */
 .courses {
@@ -146,39 +147,4 @@
   font-size: 1.8rem;
   cursor: pointer;
 }
-/* Fiinish Courses Top-bar-Styles */
-
-/* start courses pagination style  */
-.courses-pagination {
-  margin: 3rem 0;
-}
-.courses__pagination-list {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.courses__pagination-link {
-  width: 4rem;
-  height: 4rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 0.5rem;
-  -webkit-border-radius: 0.5rem;
-  -moz-border-radius: 0.5rem;
-  -ms-border-radius: 0.5rem;
-  -o-border-radius: 0.5rem;
-  font-size: 1.5rem;
-  background-color: #f0f0f1;
-  margin: 0 0.5rem;
-}
-.courses__pagination-link:hover{
-  color:var(--white-color);
-  background-color:var(--primary-color) ;
-}
-.courses__pagination-link--active{
-  color: var(--white-color);
-  background-color: var(--primary-color);
-}
-
-/* finigh courses pagination style  */
+/* Finish Courses Top-bar-Styles */
