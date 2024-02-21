@@ -45,7 +45,7 @@
   border: 1px solid #e5e5e5;
   margin-left: 1rem;
 }
-.corses-top-bar__icon{
+.corses-top-bar__icon {
   margin: auto;
 }
 .corses-top-bar__icon--active {
@@ -74,14 +74,14 @@
   -ms-transition: all 400ms ease;
   -o-transition: all 400ms ease;
 }
-.corses-top-bar__selection-title:hover{
+.corses-top-bar__selection-title:hover {
   color: var(--white-color);
   background-color: #1e83f0;
 }
-.corses-top-bar__selection-icon{
+.corses-top-bar__selection-icon {
   margin-right: 0.5rem;
 }
-.corses-top-bar__selection-list{
+.corses-top-bar__selection-list {
   opacity: 0;
   visibility: hidden;
   position: absolute;
@@ -89,11 +89,11 @@
   background-color: var(--white-color);
   width: 100%;
   padding: 0.8rem 0;
-  border-radius:0 0 0.3rem 0.3rem ;
-  -webkit-border-radius:0 0 0.3rem 0.3rem ;
-  -moz-border-radius:0 0 0.3rem 0.3rem ;
-  -ms-border-radius:0 0 0.3rem 0.3rem ;
-  -o-border-radius:0 0 0.3rem 0.3rem ;
+  border-radius: 0 0 0.3rem 0.3rem;
+  -webkit-border-radius: 0 0 0.3rem 0.3rem;
+  -moz-border-radius: 0 0 0.3rem 0.3rem;
+  -ms-border-radius: 0 0 0.3rem 0.3rem;
+  -o-border-radius: 0 0 0.3rem 0.3rem;
   border-bottom: 0.3rem solid var(--primary-color);
   z-index: 9999;
   transition: all 400ms ease;
@@ -102,11 +102,11 @@
   -ms-transition: all 400ms ease;
   -o-transition: all 400ms ease;
 }
-.corses-top-bar__selection:hover .corses-top-bar__selection-list{
+.corses-top-bar__selection:hover .corses-top-bar__selection-list {
   visibility: visible;
   opacity: 1;
 }
-.corses-top-bar__selecion-item{
+.corses-top-bar__selecion-item {
   font-size: 1.4rem;
   padding: 0.9rem 1.4rem;
   color: #5f5f5f;
@@ -116,13 +116,13 @@
   -ms-transition: all 200ms ease;
   -o-transition: all 200ms ease;
 }
-.corses-top-bar__selecion-item:hover{
-background-color: #ddd;
+.corses-top-bar__selecion-item:hover {
+  background-color: #ddd;
 }
-.corses-top-bar__selecion-item--active{
+.corses-top-bar__selecion-item--active {
   background-color: #ddd !important;
 }
- 
+
 .corses-top-bar__form {
   position: relative;
   width: 30rem;
@@ -147,3 +147,38 @@ background-color: #ddd;
   cursor: pointer;
 }
 /* Fiinish Courses Top-bar-Styles */
+
+/* start courses pagination style  */
+.courses-pagination {
+  margin: 3rem 0;
+}
+.courses__pagination-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.courses__pagination-link {
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  font-size: 1.5rem;
+  background-color: #f0f0f1;
+  margin: 0 0.5rem;
+}
+.courses__pagination-link:hover{
+  color:var(--white-color);
+  background-color:var(--primary-color) ;
+}
+.courses__pagination-link--active{
+  color: var(--white-color);
+  background-color: var(--primary-color);
+}
+
+/* finigh courses pagination style  */
