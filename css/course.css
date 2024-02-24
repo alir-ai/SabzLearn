@@ -6,6 +6,7 @@
 @import "./course_box.css";
 @import "./footer.css";
 
+/* Start Breadcrumb styles */
 .breadcrumb {
   margin-bottom: 2rem;
 }
@@ -50,8 +51,58 @@
 .breadcrumb__link:hover {
   color: #7f8187;
 }
-.breadcrumb__icon{
-    color: #7f8187;
-    font-size:1.5rem ;
-    margin: 0 0.7rem;
+.breadcrumb__icon {
+  color: #7f8187;
+  font-size: 1.5rem;
+  margin: 0 0.7rem;
 }
+/* finish Breadcrumb styles */
+
+/* Start course info styles */
+.course-info {
+  margin-bottom: 6rem;
+}
+.course-info__link {
+  font-size: 1.2rem;
+  color: var(--primary-color);
+  padding: 0.4rem 1rem;
+  background-color: rgba(43, 206, 86, 0.2);
+  border-radius: 0.3rem;
+  -webkit-border-radius: 0.3rem;
+  -moz-border-radius: 0.3rem;
+  -ms-border-radius: 0.3rem;
+  -o-border-radius: 0.3rem;
+}
+.course-info__title {
+  margin: 2rem 0;
+  font-weight: bold;
+  font-size: 2.4rem;
+  color: #464749;
+}
+.course-info__text {
+  margin-bottom: 3rem;
+  font-size: 1.6rem;
+  color: #7b868a;
+}
+.course-info__social-media-item{
+  color: #b1bbbf;
+  margin-left: 1.7rem;
+  transition: all 400ms ease;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+}
+.course-info__icon{
+  font-size: 2rem;
+}
+
+.course-info__video{
+  width: 100%;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+/* finish course info styles */
