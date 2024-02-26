@@ -106,3 +106,44 @@
   -o-border-radius: 1rem;
 }
 /* finish course info styles */
+
+/* Start course boxes styles */
+.course-boxes_box{
+  display: flex;
+  /* align-items: center; */
+  padding: 1.8rem 2rem;
+  box-shadow: 0 5px 30px rgba(70, 72, 77, 0.08);
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+.course-boxes__box-right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.course_boxes__box-right-icon{
+  font-size: 3.5rem;
+  color: var(--primary-color);
+}
+
+.course-boxes__box-left{
+  display: flex;
+  flex-direction: column;
+  margin-right: 1.5rem;
+}
+.course-boxes__box-left-title{
+  font-size:1.6rem ;
+  color: #858c96;
+}
+.course-boxes__box-left-subtitle{
+  font-size: 1.6rem;
+  color: #7d7e7f;
+}
+
+
+
+/* finish course boxes styles */
