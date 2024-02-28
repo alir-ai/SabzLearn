@@ -5,6 +5,7 @@
 @import "./navbar.css";
 @import "./course_box.css";
 @import "./footer.css";
+@import "./helper.css";
 
 /* Start Breadcrumb styles */
 .breadcrumb {
@@ -84,7 +85,7 @@
   font-size: 1.6rem;
   color: #7b868a;
 }
-.course-info__social-media-item{
+.course-info__social-media-item {
   color: #b1bbbf;
   margin-left: 1.7rem;
   transition: all 400ms ease;
@@ -93,11 +94,11 @@
   -ms-transition: all 400ms ease;
   -o-transition: all 400ms ease;
 }
-.course-info__icon{
+.course-info__icon {
   font-size: 2rem;
 }
 
-.course-info__video{
+.course-info__video {
   width: 100%;
   border-radius: 1rem;
   -webkit-border-radius: 1rem;
@@ -108,7 +109,7 @@
 /* finish course info styles */
 
 /* Start course boxes styles */
-.course-boxes_box{
+.course-boxes_box {
   display: flex;
   /* align-items: center; */
   padding: 1.8rem 2rem;
@@ -120,61 +121,58 @@
   -ms-border-radius: 0.5rem;
   -o-border-radius: 0.5rem;
 }
-.course-boxes__box-right{
+.course-boxes__box-right {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.course_boxes__box-right-icon{
+.course_boxes__box-right-icon {
   font-size: 3.5rem;
   color: var(--primary-color);
 }
 
-.course-boxes__box-left{
+.course-boxes__box-left {
   display: flex;
   flex-direction: column;
   margin-right: 1.5rem;
 }
-.course-boxes__box-left-title{
-  font-size:1.6rem ;
+.course-boxes__box-left-title {
+  font-size: 1.6rem;
   color: #858c96;
 }
-.course-boxes__box-left-subtitle{
+.course-boxes__box-left-subtitle {
   font-size: 1.6rem;
   color: #7d7e7f;
 }
 
-
-
 /* finish course boxes styles */
 
 /* Start course progress styles*/
-.course-progress{
+.course-progress {
   border-radius: 1rem;
   -webkit-border-radius: 1rem;
   -moz-border-radius: 1rem;
   -ms-border-radius: 1rem;
   -o-border-radius: 1rem;
   margin: 3rem 0;
-  padding:2rem 2rem 1.2rem 2rem ;
+  padding: 2rem 2rem 1.2rem 2rem;
   background-color: #f0f2f7;
 }
-.course-progress__header{
+.course-progress__header {
   display: flex;
   align-items: center;
-  margin-bottom:1.5rem ;
+  margin-bottom: 1.5rem;
 }
-.course-progress__icon{
+.course-progress__icon {
   font-size: 2.5rem;
   color: #7b868a;
-
 }
-.course-progress__title{
+.course-progress__title {
   margin-right: 1.5rem;
   color: #7b868a;
   font-size: 1.5rem;
 }
-.course-progress__bar{
+.course-progress__bar {
   border-radius: 10rem;
   -webkit-border-radius: 10rem;
   -moz-border-radius: 10rem;
@@ -182,9 +180,8 @@
   -o-border-radius: 10rem;
   height: 1rem;
 }
-.progress-bar{
+.progress-bar {
   background-color: #1fbd50;
 }
-
 
 /* finish course progress styles*/

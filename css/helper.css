@@ -27,7 +27,7 @@
   .title::after {
     content: "";
     width: 100%;
-    max-width: 250px;
+    /* max-width: 250px; */
     height: 60%;
     bottom: 0;
     right: 0;
