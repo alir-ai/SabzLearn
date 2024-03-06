@@ -9,29 +9,67 @@
 @import "./Breadcrumb.css";
 @import "./sideBarCoursesBox.css";
 
-.course-info{
-    overflow: hidden;
+/* Start Side bar styles */
+.course-info {
+  overflow: hidden;
 }
 
 .course-info__courses-title {
   position: relative;
 }
-.course-info__courses-title::before{
-    content: '';
-    position: absolute;
-    width: 22px;
-    height: 39px;
-    background-color: var(--primary-color);
-    border-radius: 8px 0 0 12px;
-    -webkit-border-radius: 8px 0 0 12px;
-    -moz-border-radius: 8px 0 0 12px;
-    -ms-border-radius: 8px 0 0 12px;
-    -o-border-radius: 8px 0 0 12px;
-    top: -5px;
-    right: -27px;
-    transform: skew(-10deg);
-    -webkit-transform: skew(-10deg);
-    -moz-transform: skew(-10deg);
-    -ms-transform: skew(-10deg);
-    -o-transform: skew(-10deg);
+.course-info__courses-title::before {
+  content: "";
+  position: absolute;
+  width: 22px;
+  height: 39px;
+  background-color: var(--primary-color);
+  border-radius: 8px 0 0 12px;
+  -webkit-border-radius: 8px 0 0 12px;
+  -moz-border-radius: 8px 0 0 12px;
+  -ms-border-radius: 8px 0 0 12px;
+  -o-border-radius: 8px 0 0 12px;
+  top: -5px;
+  right: -27px;
+  transform: skew(-10deg);
+  -webkit-transform: skew(-10deg);
+  -moz-transform: skew(-10deg);
+  -ms-transform: skew(-10deg);
+  -o-transform: skew(-10deg);
 }
+
+.sidebar-articles__list {
+  margin-top: 2rem;
+}
+.sidebar-articlles__item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #eeeeee;
+  padding: 0.9rem 1.3rem 0.9rem 1rem;
+  transition: all 400ms ease;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+}
+.sidebar-articlles__item:hover {
+  padding-right: 2rem;
+  background-color: #f8f9fa;
+}
+.sidebar-articlles__item:hover .sidebar-articlles__icon {
+  color: var(--primary-color);
+}
+.sidebar-articlles__icon {
+  font-size: 1.4rem;
+  color: #909aa7;
+  transition: all 400ms ease;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+}
+.sidebar-articlles__link {
+  font-size: 1.3rem;
+  margin-right: 0.5rem;
+}
+
+/* Finish Side bar styles */
