@@ -78,13 +78,34 @@
   margin-bottom: 0.5rem;
   font-weight: bold;
 }
-.article-read__link{
+.article-read__link {
   line-height: 2;
   font-size: 1.5rem;
   color: #1e83f0;
 }
-.article-read__link:hover{
+.article-read__link:hover {
   text-decoration: underline;
+}
+
+.article__secondary-banner {
+  display: block;
+  margin: 0 auto;
+}
+.article-section{
+  margin: 5rem 0;
+}
+.article-section__title {
+  font-size: 2.4rem;
+  color: #008c25;
+  font-weight: bold;
+  line-height: 1.2;
+}
+.article-section__text{
+  margin: 2rem 0;
+}
+.article-section__img{
+  display: block;
+  margin: 0 auto;
 }
 
 /* Finish Main Info Section styles */
