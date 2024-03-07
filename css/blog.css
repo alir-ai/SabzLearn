@@ -138,3 +138,11 @@
 }
 
 /* Finish Side bar styles */
+
+/* start Helper Classes */
+.paragraph{
+  font-size: 1.5rem;
+  line-height: 3rem;
+  color: #7d7e7f;
+}
+/* Finish Helper Classes */
