@@ -61,6 +61,32 @@
   color: #7d7d7f;
 }
 
+.article-read {
+  background-color: #f2f2f2;
+  border-radius: 3rem;
+  -webkit-border-radius: 3rem;
+  -moz-border-radius: 3rem;
+  -ms-border-radius: 3rem;
+  -o-border-radius: 3rem;
+  padding: 2rem 3rem;
+  margin: 3rem 0;
+}
+.article-read__title {
+  display: block;
+  color: #333333;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+.article-read__link{
+  line-height: 2;
+  font-size: 1.5rem;
+  color: #1e83f0;
+}
+.article-read__link:hover{
+  text-decoration: underline;
+}
+
 /* Finish Main Info Section styles */
 
 /* Start Side bar styles */
@@ -140,7 +166,7 @@
 /* Finish Side bar styles */
 
 /* start Helper Classes */
-.paragraph{
+.paragraph {
   font-size: 1.5rem;
   line-height: 3rem;
   color: #7d7e7f;
